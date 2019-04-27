@@ -1,0 +1,31 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src={% static 'app/content/oxxxy.jpg' %} class="raper-image" >
+            </div>
+            <div class="col-lg-6">
+                <h1 class="text-center">
+                    Мирон Янович Фёдоров
+                </h1>
+                <div>
+                    <h4>
+                        Биография
+                    </h4>
+                </div>
+                <div>
+                    <h5>
+                   Родился 31 января 1985 (34 года). Имеет на своём счету 6 баттлов, из которых только 1 поражение и 5 побед.
+                    </h5>
+                </div>
+            </div>
+            <h6>
+            Панчи: 1) Слава, слава, ты бойкий и ласковый, но мой орган из глотки вытаскивай, ты был просто достаточно длинной грушей в моей подготовке к Дизастеру.
+            </h6>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,72 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="section section1">
+        <div class="container">
+            <div class="raw">
+                <div class="section123 top">
+                    <h1>
+                        Реп исполнители
+                   </h1>
+                    </div>
+                 <div class="product-item">
+                     <a href="miron">
+                     <h4>
+                        Oxxxymiron
+                   </h4>
+                    <div>
+                        <img src={% static 'app/content/oxxxy.jpg' %} class="product-image-item" >
+                    </div></a>
+                   <div class="add-to-card-btn">
+            <button class="btn btn-success"
+                onclick=window.open('miron','z')
+                >Открыть профиль
+                
+            </button>
+            </div>
+                </div>
+                <div class="product-item">
+                     <h4>
+                        Obe 1 Kanobe
+                   </h4>
+                    <div>
+                        <img src={% static 'app/content/images.jpg' %} class="product-image-item" >
+                    </div>
+                   <div class="add-to-card-btn">
+            <button class="btn btn-success">
+                Открыть профиль
+            </button>
+            </div>
+                </div>
+                <div class="product-item">
+                     <h4>
+                        Гнойный
+                   </h4>
+                    <div>
+                        <img src={% static 'app/content/im.jpg' %} class="product-image-item" >
+                    </div>
+                   <div class="add-to-card-btn">
+            <button class="btn btn-success">
+                Открыть профиль
+            </button>
+            </div>
+                </div>
+                <div class="product-item">
+                     <h4>
+                        Микси
+                   </h4>
+                    <div>
+                        <img src={% static 'app/content/бес.jpg' %} class="product-image-item" >
+                    </div>
+                   <div class="add-to-card-btn">
+            <button class="btn btn-success">
+                Открыть профиль
+            </button>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
