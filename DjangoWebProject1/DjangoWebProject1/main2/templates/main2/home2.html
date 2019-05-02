@@ -1,0 +1,72 @@
+﻿{% extends 'main2/base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="section section1">
+        <div class="container">
+            <div class="raw">
+                <div class="section123 top">
+                    <h1>
+                        Сезоны Версуса
+                   </h1>
+                    </div>
+                 <div class="product-item">
+                     <a href="season1">
+                     <h4>
+                        Сезон 1
+                   </h4>
+                    <div>
+                        <img src={% static 'app/content/season1.jpg' %} class="product-image-item" >
+                    </div></a>
+                   <div class="add-to-card-btn">
+            <button class="btn btn-success"
+                onclick=window.open('season1','z')
+                >Открыть профиль
+                
+            </button>
+            </div>
+                </div>
+                <div class="product-item">
+                     <h4>
+                        Fresh Blood 1
+                   </h4>
+                    <div>
+                        <img src={% static 'app/content/season1.jpg' %} class="product-image-item" >
+                    </div>
+                   <div class="add-to-card-btn">
+            <button class="btn btn-success">
+                Открыть профиль
+            </button>
+            </div>
+                </div>
+                <div class="product-item">
+                     <h4>
+                        Сезон 2
+                   </h4>
+                    <div>
+                        <img src={% static 'app/content/season1.jpg' %} class="product-image-item" >
+                    </div>
+                   <div class="add-to-card-btn">
+            <button class="btn btn-success">
+                Открыть профиль
+            </button>
+            </div>
+                </div>
+                <div class="product-item">
+                     <h4>
+                        Fresh Blood 2
+                   </h4>
+                    <div>
+                        <img src={% static 'app/content/season1.jpg' %} class="product-image-item" >
+                    </div>
+                   <div class="add-to-card-btn">
+            <button class="btn btn-success">
+                Открыть профиль
+            </button>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
