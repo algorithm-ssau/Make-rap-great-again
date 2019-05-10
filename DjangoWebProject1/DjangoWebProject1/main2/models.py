@@ -19,8 +19,8 @@ class Season(models.Model):
 
 class Punch(models.Model): 
  id_punch = models.UUIDField(primary_key=True) 
- rapper = models.ForeignKey(Rapper) 
- rapper2 = models.ForeignKey(Rapper,null=True) 
- season = models.ForeignKey(null=True) 
+ id_rapper = models.ForeignKey(Rapper) 
+ fabula = models.CharField(max_length=200,null=True) 
+ id_season = models.ForeignKey(Season,null=True) 
  censure = models.IntegerField() 
  text = models.CharField(max_length=500) 
