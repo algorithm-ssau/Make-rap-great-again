@@ -108,18 +108,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\app\content\gnoyniy.jpg" />
-    <Content Include="app\static\app\content\landing.css" />
     <Content Include="app\static\app\content\obi.jpg" />
     <Content Include="app\static\app\content\oxxxy.jpg" />
     <Content Include="app\static\app\content\season1.jpg" />
     <Content Include="app\static\app\content\style.css" />
     <Content Include="app\static\app\content\mixi.jpg" />
-    <Content Include="main\templates\base2.html" />
+    <Content Include="main2\templates\main2\base.html" />
+    <Content Include="main2\templates\main2\footer.html" />
     <Content Include="main2\templates\main2\home2.html" />
     <Content Include="main2\templates\main2\index.html" />
     <Content Include="main2\templates\main2\season1.jpg" />
     <Content Include="main2\templates\main2\oxxxy.jpg" />
-    <Content Include="main\templates\navbar2.html" />
+    <Content Include="main2\templates\main2\navbar.html" />
     <Content Include="main\templates\base.html" />
     <Content Include="main\templates\footer.html" />
     <Content Include="main\templates\main\home.html" />
