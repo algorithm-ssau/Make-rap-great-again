@@ -1,9 +1,32 @@
-<html>
-<head><title></title></head>
+{#<html> 
+<head><title></title></head> 
 
-<body>
+<body> 
 
-{{ content }}
+{{ content }} 
 
-</body>
+
+
+</body> 
+</html>#} 
+
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+<title>Django</title> 
+</head> 
+<body class="container">
+     {{people.count}}
+{% if people.count > 0 %} 
+    <h4>"124"</h4>
+
+    {%for number in people %} 
+        <h4>"123"</h4> 
+    {% endfor%} 
+
+{% endif %} 
+</body> 
 </html>
