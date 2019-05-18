@@ -1,4 +1,4 @@
-{#<html> 
+ <html> 
 <head><title></title></head> 
 
 <body> 
@@ -8,25 +8,35 @@
 
 
 </body> 
-</html>#} 
+</html> 
 
 
 
-<!DOCTYPE html> 
+{#<!DOCTYPE html> 
 <html> 
 <head> 
-
-<title>Django</title> 
+    <meta charset="utf-8" />
+    <title>Django</title> 
 </head> 
 <body class="container">
-     {{people.count}}
-{% if people.count > 0 %} 
-    <h4>"124"</h4>
 
-    {%for number in people %} 
-        <h4>"123"</h4> 
-    {% endfor%} 
 
+
+     {{seasons.count}}
+{% if seasons.count > 0 %} 
+        
+        {%for number in seasons %}  
+    <div class="product-item">
+     <a href="season1">
+                    <div>
+                        <img src={% static 'app/content/season1.jpg' %} class="product-image-item" >
+                    </div></a>
+             
+        </div>
+        {% endfor%} 
+
+        
 {% endif %} 
+
 </body> 
-</html>
+</html>#}

@@ -94,6 +94,7 @@ html, body {
 .product-image-item {
     padding: 5px;
     margin-bottom: 5px;
+    max-width: 100%;
 }
 
 .raper-image {
