@@ -7,25 +7,22 @@
         <div class="container">
             <div class="raw">
                 <div class="section123 top">
-                    <h1>
-                        Сезоны Версуса
-                   </h1>
-                    </div>
-
+                    <h1> Сезоны Версуса</h1>
+                </div>
 
                 {% if seasons.count > 0 %} 
                 {%for number in seasons %}  
 
-                    
                 <div class="product-item">
                      <a href="season1"><h4>{{ number.name }}</h4>
                     <div><img src={% static number.photo %} class="product-image-item" ></div></a>
                    
-                    <div class="add-to-card-btn">
-            <button class="btn btn-success" onclick=window.open('season1','z')
-                    >Открыть профиль
-                </button>
-            </div>
+                   <div class="add-to-card-btn">
+                        <button class="btn btn-success" 
+                             onclick=window.open('season1','z')
+                             >Открыть профиль
+                        </button>
+                    </div>
                 </div>
 
                 {% endfor%}  
