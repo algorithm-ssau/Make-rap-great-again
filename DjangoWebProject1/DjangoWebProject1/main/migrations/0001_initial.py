@@ -46,11 +46,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='punch',
             name='id_rapper',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='main2.Rapper'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='main.Rapper'),
         ),
         migrations.AddField(
             model_name='punch',
             name='id_season',
-            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, to='main2.Season'),
+            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, to='main.Season'),
         ),
     ]
