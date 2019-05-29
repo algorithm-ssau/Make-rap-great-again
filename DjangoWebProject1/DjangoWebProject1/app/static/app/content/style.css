@@ -95,6 +95,8 @@ html, body {
     padding: 5px;
     margin-bottom: 5px;
     max-width: 100%;
+    min-height: 230px;
+    max-height: 265px;
 }
 
 .raper-image {
