@@ -19,6 +19,9 @@ urlpatterns = [
     # url(r'^$', app.views.home, name='home'),
    url(r'^seasons$', include('main2.urls'), name='home2'),
     url(r'^$', include('main.urls'), name='home'),
+
+    url(r'^rapper', include('main.urls')),
+
     url(r'^miron$', include('rapers.urls'), name='miron'),
     url(r'^season1$', include('seasons.urls'), name='season1'),
     # url(r'^contact$', app.views.contact, name='contact'),

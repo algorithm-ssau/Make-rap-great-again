@@ -124,6 +124,7 @@
     <Content Include="main\templates\footer.html" />
     <Content Include="main\templates\main\home.html" />
     <Content Include="main\templates\main\index.html" />
+    <Content Include="main\templates\main\rapper_block.html" />
     <Content Include="main\templates\main\oxxxy.jpg" />
     <Content Include="main\templates\navbar.html" />
     <Content Include="rapers\templates\rapers\index.html" />
