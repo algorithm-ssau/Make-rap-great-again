@@ -20,7 +20,7 @@ urlpatterns = [
    url(r'^seasons$', include('main2.urls')),
     url(r'^$', include('main.urls')),
 
-    url(r'^rapper', include('main.urls')),
+    url(r'^rapper/', include('main.urls')),
     url(r'^seasons/', include('main2.urls')),
 
     url(r'^miron$', include('rapers.urls'), name='miron'),
