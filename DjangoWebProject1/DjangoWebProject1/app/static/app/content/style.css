@@ -102,4 +102,6 @@ html, body {
 .raper-image {
     padding: 20px;
     margin-bottom: 20px;
+    max-height: 410px;
+    max-width: 560px;
 }
