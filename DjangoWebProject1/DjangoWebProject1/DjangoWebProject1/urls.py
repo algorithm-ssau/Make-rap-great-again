@@ -17,14 +17,10 @@ import app.views
 urlpatterns = [
     # Examples:
     # url(r'^$', app.views.home, name='home'),
-   url(r'^seasons$', include('main2.urls')),
+    url(r'^seasons$', include('main2.urls')),
     url(r'^$', include('main.urls')),
-
     url(r'^rapper/', include('main.urls')),
     url(r'^seasons/', include('main2.urls')),
-
-    url(r'^miron$', include('rapers.urls'), name='miron'),
-    url(r'^season1$', include('seasons.urls'), name='season1'),
     # url(r'^contact$', app.views.contact, name='contact'),
     # url(r'^about$', app.views.about, name='about'),
     url(r'^login/$',

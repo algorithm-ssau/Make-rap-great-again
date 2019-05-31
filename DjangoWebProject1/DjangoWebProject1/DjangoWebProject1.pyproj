@@ -59,24 +59,6 @@
     <Compile Include="DjangoWebProject1\settings.py" />
     <Compile Include="DjangoWebProject1\urls.py" />
     <Compile Include="DjangoWebProject1\wsgi.py" />
-    <Compile Include="rapers\admin.py" />
-    <Compile Include="rapers\apps.py" />
-    <Compile Include="rapers\migrations\__init__.py" />
-    <Compile Include="rapers\models.py" />
-    <Compile Include="rapers\urls.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="rapers\tests.py" />
-    <Compile Include="rapers\views.py" />
-    <Compile Include="rapers\__init__.py" />
-    <Compile Include="seasons\admin.py" />
-    <Compile Include="seasons\apps.py" />
-    <Compile Include="seasons\migrations\__init__.py" />
-    <Compile Include="seasons\models.py" />
-    <Compile Include="seasons\tests.py" />
-    <Compile Include="seasons\urls.py" />
-    <Compile Include="seasons\views.py" />
-    <Compile Include="seasons\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -97,14 +79,6 @@
     <Folder Include="main\migrations\" />
     <Folder Include="main\templates\" />
     <Folder Include="main\templates\main\" />
-    <Folder Include="rapers\" />
-    <Folder Include="rapers\migrations\" />
-    <Folder Include="rapers\templates\" />
-    <Folder Include="rapers\templates\rapers\" />
-    <Folder Include="seasons\" />
-    <Folder Include="seasons\migrations\" />
-    <Folder Include="seasons\templates\" />
-    <Folder Include="seasons\templates\seasons\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\app\content\gnoyniy.jpg" />
@@ -118,18 +92,13 @@
     <Content Include="main2\templates\main2\home2.html" />
     <Content Include="main2\templates\main2\index.html" />
     <Content Include="main2\templates\main2\season_block.html" />
-    <Content Include="main2\templates\main2\season1.jpg" />
-    <Content Include="main2\templates\main2\oxxxy.jpg" />
     <Content Include="main2\templates\main2\navbar.html" />
     <Content Include="main\templates\base.html" />
     <Content Include="main\templates\footer.html" />
     <Content Include="main\templates\main\home.html" />
     <Content Include="main\templates\main\index.html" />
     <Content Include="main\templates\main\rapper_block.html" />
-    <Content Include="main\templates\main\oxxxy.jpg" />
     <Content Include="main\templates\navbar.html" />
-    <Content Include="rapers\templates\rapers\index.html" />
-    <Content Include="rapers\templates\rapers\miron.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
@@ -160,8 +129,6 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
-    <Content Include="seasons\templates\seasons\index.html" />
-    <Content Include="seasons\templates\seasons\season1.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">

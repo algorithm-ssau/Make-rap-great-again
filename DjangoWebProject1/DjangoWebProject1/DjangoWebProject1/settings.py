@@ -32,11 +32,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'rapers',
     'app',
     'main',
     'main2',
-    'seasons',
     # Add your apps here to enable them
     'django.contrib.admin',
     'django.contrib.auth',
