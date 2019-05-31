@@ -23,10 +23,14 @@
                     </h5>
                 </div>
             </div>
-            <h6>
+            <h5>
             Панчи:
-              
-            </h6>
+               <br>
+                {%for number in punchs %}
+                    {{ number.text }}
+                    <br>
+                {% endfor%}  
+            </h5>
         </div>
     </div>
 {% endblock %}
