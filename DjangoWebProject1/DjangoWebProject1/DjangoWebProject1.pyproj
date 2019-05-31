@@ -117,6 +117,7 @@
     <Content Include="main2\templates\main2\footer.html" />
     <Content Include="main2\templates\main2\home2.html" />
     <Content Include="main2\templates\main2\index.html" />
+    <Content Include="main2\templates\main2\season_block.html" />
     <Content Include="main2\templates\main2\season1.jpg" />
     <Content Include="main2\templates\main2\oxxxy.jpg" />
     <Content Include="main2\templates\main2\navbar.html" />

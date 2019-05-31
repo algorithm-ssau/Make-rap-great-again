@@ -1,0 +1,32 @@
+﻿{% extends 'main2/base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src={% static season.photo %} class="raper-image" >
+            </div>
+            <div class="col-lg-6">
+                <h1 class="text-center">
+                    {{ season.name }}
+                </h1>
+                <div>
+                    <h4>
+                        Краткая фабула
+                    </h4>
+                </div>
+                <div>
+                    <h5>
+                    {{ season.text }}
+                    </h5>
+                </div>
+            </div>
+            <h6>
+            Панчи:
+              
+            </h6>
+        </div>
+    </div>
+{% endblock %}
