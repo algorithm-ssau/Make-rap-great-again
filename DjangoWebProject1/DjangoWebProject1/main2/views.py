@@ -9,3 +9,7 @@ from .models import Season
 def home2(request):
     seasons = Season.objects.all() 
     return render(request, 'main2/home2.html',  {"seasons": seasons}) 
+
+def season1(request, seasons_id):
+    seasons = Season.objects.all() 
+    return render(request, 'main2/home2.html',  {"seasons": seasons}) 

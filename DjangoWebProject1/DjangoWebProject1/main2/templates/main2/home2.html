@@ -14,7 +14,8 @@
                 {%for number in seasons %}  
 
                 <div class="product-item">
-                     <a href="season1"><h4>{{ number.name }}</h4>
+                     <a href="{% url 'season1' number.id_season %}">
+                    <h4>{{ number.name }}</h4>
                     <div><img src={% static number.photo %} class="product-image-item" ></div></a>
                    
                    <div class="add-to-card-btn">
