@@ -3,6 +3,7 @@ Definition of urls for DjangoWebProject1.
 """
 
 from datetime import datetime
+from django.views.generic import RedirectView
 from django.conf.urls import url, include
 import django.contrib.auth.views
 
@@ -17,6 +18,7 @@ import app.views
 urlpatterns = [
     # Examples:
     # url(r'^$', app.views.home, name='home'),
+    url(r'^favicon\.ico$', RedirectView.as_view(url='/static/app/content/favicon.ico', permanent=True)),
     url(r'^seasons$', include('main2.urls')),
     url(r'^$', include('main.urls')),
     url(r'^rapper/', include('main.urls')),

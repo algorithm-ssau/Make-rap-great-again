@@ -1,0 +1,21 @@
+﻿{% extends 'main2/base_f.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="section section1">
+        <div class="container">
+            <div class="raw">
+                <div class="section123 top">
+                    <h1> Панчи</h1>
+                </div>
+                <h5>
+                {%for number in punchs %}
+                    {{ number.text }}
+                    <br>
+                {% endfor%}  
+            </h5>
+            </div>
+        </div>
+    </div>
+{% endblock %}
