@@ -11,6 +11,10 @@ def home2(request):
     seasons = Season.objects.all() 
     return render(request, 'main2/home2.html',  {"seasons": seasons}) 
 
+def punch(request):
+    punchs  = Punch.objects.all()
+    return render(request, 'main2/punches.html',  {"punchs": punchs}) 
+
 def season1(request, seasons_id):
     season = Season.objects.get(id_season=seasons_id)
     punchs = Punch.objects.filter(id_season=seasons_id)

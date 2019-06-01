@@ -82,10 +82,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\app\content\style.css" />
+    <Content Include="main2\templates\main2\base_f.html" />
     <Content Include="main2\templates\main2\base.html" />
     <Content Include="main2\templates\main2\footer.html" />
     <Content Include="main2\templates\main2\home2.html" />
     <Content Include="main2\templates\main2\index.html" />
+    <Content Include="main2\templates\main2\navbar_f.html" />
+    <Content Include="main2\templates\main2\punches.html" />
     <Content Include="main2\templates\main2\season_block.html" />
     <Content Include="main2\templates\main2\navbar.html" />
     <Content Include="main\templates\base.html" />
