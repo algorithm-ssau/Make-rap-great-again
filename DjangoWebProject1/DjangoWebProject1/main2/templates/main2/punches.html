@@ -1,20 +1,39 @@
 ﻿{% extends 'main2/base_f.html' %}
 {% load static %}
 
+<style>
+table, th, td {
+  border: 1px solid black;
+}
 
+th, td {
+  padding: 10px;
+}
+</style>
 {% block content %}
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+    td {
+        padding: 10px;
+    }
+    th {
+        text-align:center
+    }
+</style>
     <div class="section section1">
         <div class="container">
             <div class="raw">
                 <div class="section123 top">
-                    <h1> Панчи</h1>
+                    <h1 title="Для поиск нажмите комбинацию CTRL+F">Панчи</h1>
                 </div>
-                <h5>
+                <table border="1">
+                    <tr><th>Панч</th><th>Исполнитель</th><th>Сезон</th></tr>
                 {%for number in punchs %}
-                    {{ number.text }}
-                    <br>
+                    <tr><td>{{ number.text }}</td><td>{{ number.id_rapper.name }}</td><td>{{ number.id_season.name }}</td></tr>
                 {% endfor%}  
-            </h5>
+                </table>
             </div>
         </div>
     </div>
