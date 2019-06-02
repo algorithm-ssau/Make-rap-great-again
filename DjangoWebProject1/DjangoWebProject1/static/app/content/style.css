@@ -79,6 +79,9 @@ html, body {
 }
 
 .raper-image {
+    display: block;
+    margin: auto;
+    position: center;
     padding: 20px;
     margin-bottom: 20px;
     max-height: 410px;

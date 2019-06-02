@@ -22,6 +22,7 @@
                         {{ rapper.biography }}
                     </h5>
                 </div>
+                {% if punchs.count > 0 %} 
                 <div style="width:500px; height:500px; overflow:auto;">
                 <table style="border:1px solid black;">
                     <tr><th style="text-align:center">Панчи</th></tr>
@@ -30,6 +31,7 @@
                 {% endfor%}
                     </table>
                 </div>
+                {% endif %}
             </div>
         </div>
     </div>

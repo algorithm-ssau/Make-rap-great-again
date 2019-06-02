@@ -18,7 +18,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <img src={% static season.photo %} class="raper-image" >
+                <img src={% static season.photo %} class="raper-image">
+                {% if season.grid != null %} 
+                <h4 style="margin-left: 20px; text-align: center">Турнирная сетка</h4>
+                <img src={% static season.grid %} class="raper-image">
+                {% endif %}
             </div>
             <div class="col-lg-6">
                 <h1 class="text-center">
