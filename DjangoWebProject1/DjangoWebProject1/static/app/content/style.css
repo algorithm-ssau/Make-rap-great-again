@@ -33,10 +33,6 @@ html, body {
     margin-bottom: 20px
 }
 
-.product-description-tabs {
-    padding: 10px;
-}
-
 .section {
     padding: 10px 0;
 }
@@ -72,23 +68,6 @@ html, body {
     bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.discount-container {
-    position: absolute;
-    top: 30%;
-    background: #55e073;
-    width: 30%;
-    color: white;
-    font-weight: 700;
-    padding: 3px;
-}
-
-.section-delivery {
-    height: 300px;
-    background-color: darkseagreen;
-    text-align: center;
-    color: white;
 }
 
 .product-image-item {
