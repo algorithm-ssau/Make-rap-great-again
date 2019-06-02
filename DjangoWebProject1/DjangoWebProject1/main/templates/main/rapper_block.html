@@ -22,15 +22,15 @@
                         {{ rapper.biography }}
                     </h5>
                 </div>
-            </div>
-            <h5>
-            Панчи:
-                <br>
+                <div style="width:500px; height:500px; overflow:auto;">
+                <table style="border:1px solid black; height: 100px; overflow: auto">
+                    <tr><th style="text-align:center">Панчи</th></tr>
                 {%for number in punchs %}
-                    {{ number.text }}
-                    <br>
-                {% endfor%}  
-            </h5>
+                    <tr><td style="border:1px solid black;padding: 10px;">{{ number.text }}</td></tr>
+                {% endfor%}
+                    </table>
+                    </div>
+            </div>
         </div>
     </div>
 {% endblock %}
