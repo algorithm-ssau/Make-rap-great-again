@@ -3,6 +3,18 @@
 
 
 {% block content %}
+<style>
+    table, th, td {
+        border: 1px solid black;
+        margin-left: 15px;
+    }
+    td {
+        padding: 10px;
+    }
+    th {
+        text-align:center
+    }
+</style>
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -19,18 +31,19 @@
                 </div>
                 <div>
                     <h5>
-                    {{ season.text }}
+                      {{ season.text }}
                     </h5>
                 </div>
+                <h4>Годы проведения: {{season.year}}</h4>
             </div>
-            <h5>
-            Панчи:
-               <br>
+            <div style="width:500px; height:500px; overflow:auto;">
+            <table>
+                    <tr><th>Панч</th><th>Исполнитель</th></tr>
                 {%for number in punchs %}
-                    {{ number.text }}
-                    <br>
+                    <tr><td>{{ number.text }}</td><td>{{ number.id_rapper.name }}</td></tr>
                 {% endfor%}  
-            </h5>
+                </table>
+            </div>
         </div>
     </div>
 {% endblock %}

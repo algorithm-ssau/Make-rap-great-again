@@ -18,9 +18,9 @@
         <div class="container">
             <div class="raw">
                 <div class="section123 top">
-                    <h1 title="Для поиск нажмите комбинацию CTRL+F">Панчи</h1>
+                    <h1 title="Для поиска нажмите комбинацию CTRL+F">Панчи</h1>
                 </div>
-                <table border="1">
+                <table>
                     <tr><th>Панч</th><th>Исполнитель</th><th>Сезон</th></tr>
                 {%for number in punchs %}
                     <tr><td>{{ number.text }}</td><td>{{ number.id_rapper.name }}</td><td>{{ number.id_season.name }}</td></tr>
