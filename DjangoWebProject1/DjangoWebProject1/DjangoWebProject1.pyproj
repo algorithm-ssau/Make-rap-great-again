@@ -93,7 +93,6 @@
     <Content Include="main2\templates\main2\navbar.html" />
     <Content Include="main\templates\base.html" />
     <Content Include="main\templates\footer.html" />
-    <Content Include="main\templates\main\favicon.ico" />
     <Content Include="main\templates\main\home.html" />
     <Content Include="main\templates\main\index.html" />
     <Content Include="main\templates\main\rapper_block.html" />
@@ -102,7 +101,6 @@
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
     <Content Include="app\static\app\content\bootstrap.min.css" />
-    <Content Include="app\static\app\content\site.css" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.ttf" />

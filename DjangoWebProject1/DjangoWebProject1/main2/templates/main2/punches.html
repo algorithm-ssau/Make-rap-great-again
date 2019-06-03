@@ -21,9 +21,9 @@
                     <h1 title="Для поиска нажмите комбинацию CTRL+F">Панчи</h1>
                 </div>
                 <table>
-                    <tr><th>Панч</th><th>Исполнитель</th><th>Сезон</th></tr>
+                    <tr><th style="border: 1px solid #fff;">Панч</th><th style="border: 1px solid #fff;">Исполнитель</th><th style="border: 1px solid #fff;">Сезон</th></tr>
                 {%for number in punchs %}
-                    <tr><td>{{ number.text }}</td><td>{{ number.id_rapper.name }}</td><td>{{ number.id_season.name }}</td></tr>
+                    <tr><td style="border: 1px solid #fff;">{{ number.text }}</td><td style="border: 1px solid #fff;">{{ number.id_rapper.name }}</td><td style="border: 1px solid #fff;text-align:center">{{ number.id_season.name }}</td></tr>
                 {% endfor%}  
                 </table>
             </div>
