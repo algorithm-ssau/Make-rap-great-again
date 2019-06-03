@@ -12,6 +12,7 @@ html, body {
     background-color: red;
 }
 .navbar {
+    margin-top: -20px;
     border-bottom-color: #2f343f;
     color: red;
     background-color: #2f343f;
