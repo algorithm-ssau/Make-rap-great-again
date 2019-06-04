@@ -12,9 +12,10 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 
 import os
 import posixpath
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
 # Quick-start development settings - unsuitable for production
@@ -26,8 +27,9 @@ SECRET_KEY = 'e9609962-21d2-4aad-bf26-f12a013cf1b2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
+db_from_env = dj_database_url.config()
 
 # Application definition
 
@@ -57,10 +59,16 @@ MIDDLEWARE_CLASSES = [
 
 ROOT_URLCONF = 'DjangoWebProject1.urls'
 
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR,  'static\app\content'),
+    os.path.join(BASE_DIR,  'app'), 
+    os.path.join(BASE_DIR,  'staticfiles'), 
+)
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['*'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -125,4 +133,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'

@@ -1,2 +1,0 @@
-C:\Users\user\Documents\GitHub\Make-rap-great-again1\DjangoWebProject1\DjangoWebProject1\obj\Debug\DjangoWebProject1.pyproj.CoreCompileInputs.cache
-D:\Денис\Documents\GitHub\Make-rap-great-again\DjangoWebProject1\DjangoWebProject1\obj\Debug\DjangoWebProject1.pyproj.CoreCompileInputs.cache

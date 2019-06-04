@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -19,13 +19,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="/" class="navbar-brand">Версус</a>
+                <a href="/" class="navbar-brand">Application name</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="{% url 'home' %}">Реп исполнители</a></li>
-                    <li><a href="{% url 'about' %}">Сезоны Версуса</a></li>
-                    <li><a href="{% url 'contact' %}">Поиск панча</a></li>
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'contact' %}">Contact</a></li>
                 </ul>
                 {% include 'app/loginpartial.html' %}
             </div>
@@ -36,7 +36,7 @@
 {% block content %}{% endblock %}
         <hr/>
         <footer>
-            <p>&copy; Сайт создан специально для практикума на ЭВМ в 2019 году</p>
+            <p>&copy; {{ year }} - My Django Application</p>
         </footer>
     </div>
 

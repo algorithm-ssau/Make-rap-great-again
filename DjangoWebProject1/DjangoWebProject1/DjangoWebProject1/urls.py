@@ -18,7 +18,7 @@ import app.views
 urlpatterns = [
     # Examples:
     # url(r'^$', app.views.home, name='home'),
-    url(r'^favicon\.ico$', RedirectView.as_view(url='/static/app/content/favicon.ico', permanent=True)),
+    url(r'^favicon\.ico$', RedirectView.as_view(url='app/content/favicon.ico', permanent=True)),
     url(r'^seasons$', include('main2.urls')),
     url(r'^$', include('main.urls')),
     url(r'^rapper/', include('main.urls')),
