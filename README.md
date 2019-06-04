@@ -19,11 +19,11 @@
 1) Зарегистрироваться на сайте 
 2) Установить приложение
 3) И далее в командной строке прописать следующее (находясь в директории сайта):
-  1. git init
-  2. git add .
-  3. git commit -am "commit name"
-  4. heroku create name-site --stack cedar
-  5. git push heroku master
+     1. git init
+     2. git add .
+     3. git commit -am "commit name"
+     4. heroku create name-site --stack cedar
+     5. git push heroku master
 На этом моменте сайт уже создан и готов к работе.
 
 Сейчас вы можете просто перейти на наш по ссылке:
