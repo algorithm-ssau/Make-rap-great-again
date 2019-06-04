@@ -1,5 +1,6 @@
 *.pyc
 
+__pycache__
 DjangoWebProject1/DjangoWebProject1/main/__pycache__/
 DjangoWebProject1/DjangoWebProject1/main2/__pycache__/
 DjangoWebProject1/DjangoWebProject1/DjangoWebProject1/__pycache__/
